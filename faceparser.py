@@ -43,4 +43,6 @@ if __name__ == '__main__':
     p = facebookWallParser()
     p.feed(f.read())
 
+    print "Feed entries: %d" % p.state_machine.feedentry
+
 
